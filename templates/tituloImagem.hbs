@@ -1,0 +1,12 @@
+<div class="component__inner tituloImagem__inner">
+    <div class="titulo-box">
+        {{#if displayTitle}}
+        <div class="title-img" style="background: url({{_graphic.bg}})">
+            <span>{{{displayTitle}}}</span>
+        </div>
+        {{/if}}
+        {{#if body}}
+            <div class="subtitle-text"> {{{body}}}</div>
+        {{/if}}
+    </div>
+</div>

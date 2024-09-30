@@ -1,0 +1,29 @@
+{
+  "name": "adapt-tituloImagem",
+  "homepage": "https://github.com/steinner/adapt-imagemFundo",
+  "authors": [
+    "Tamara Steinner <tscaraujo@cetiqt.senai.br>"
+  ],
+  "description": "Tìtulo num fundo com imagem e subtítulo roxo (ambos opcionais).",
+  "main": "/js/adapt-tituloImagem.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/plugins",
+    "test",
+    "tests"
+  ],
+  "assetFields" : "_graphic.bg",
+  "license": "MIT",
+  "private": true,
+  "version": "0.1.3",
+  "framework": ">=5.0",
+  "component": "tituloImagem",
+  "displayName": "Título e Subtítulo"
+}
+ 
